@@ -1,7 +1,5 @@
 Feature Engineering Judul Lagu (Billboard Hot 100 dan iTunes API)
 
-Tugas mata kuliah Pemrosesan Teks, S1 Sains Data, Universitas Negeri Surabaya (UNESA).
-
 Penyusun: Eifellyne Putri Widayanto (011) dan Vania Felicia Gita Wulandari (058).
 
 Deskripsi
@@ -17,7 +15,3 @@ Singkatnya, preprocessing dilakukan pada gabungan 120 judul (Billboard dan iTune
 Hasil singkat
 
 Matriks Part 1 berukuran 42 kata, dengan sparsity 94,64 persen, dan 39 dari 42 kata hanya muncul satu kali. Word2Vec dan FastText menghasilkan vektor berdimensi 100 dengan kosakata 46 kata. Skor kemiripan kata tertinggi rendah pada kedua model, yaitu 0,219 untuk Word2Vec dan 0,212 untuk FastText, dan kata yang dianggap mirip tidak bermakna karena datanya hanya sekitar 20 judul pendek. Untuk data sekecil ini, TF-IDF paling mudah ditafsirkan, sedangkan Word2Vec dan FastText baru bermanfaat jika datanya jauh lebih besar.
-
-Isi repository
-
-iTunes_API_Pemrosesan_Teks.ipynb adalah notebook utama yang berisi scraping, preprocessing, feature engineering, dan analisis. README.md adalah file ini. Saat notebook dijalankan, akan terbentuk juga file itunes_preprocessed.csv, judul_lagu.w2v, dan judul_lagu.fasttext.
